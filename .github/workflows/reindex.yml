@@ -3,7 +3,7 @@ name: Trigger Gajbot Knowledge Reindex
 on:
   push:
     branches:
-      - main
+      - production
     paths:
       - 'kb/**'
       - 'blog/**'
@@ -21,15 +21,19 @@ jobs:
           COMMIT_SHA: ${{ github.sha }}
           COMMIT_MESSAGE: ${{ github.event.head_commit.message }}
         run: |
-          if [ -z "$REINDEX_WEBHOOK_URL" ]; then
-            echo "::warning ::GAJBOT_REINDEX_WEBHOOK_URL secret not configured; skipping automatic reindex call."
-            exit 0
+          if [ -z "$REINDEX_WEBHOOK_URL" ] || [ -z "$REINDEX_TOKEN" ]; then
+            echo "::error ::GAJBOT_REINDEX_WEBHOOK_URL and GAJBOT_REINDEX_SECRET must be configured."
+            exit 1
           fi
-          
-          echo "Triggering Gajbot reindex for commit $COMMIT_SHA..."
-          curl -f -s -X POST "$REINDEX_WEBHOOK_URL" \
-            -H "Authorization: Bearer $REINDEX_TOKEN" \
+
+          payload=$(jq -cn --arg commit "$COMMIT_SHA" --arg message "$COMMIT_MESSAGE" \
+            '{after:$commit, head_commit:{message:$message}, repository:{full_name:"erp_docs"}, ref:"refs/heads/production"}')
+          signature="sha256=$(printf '%s' "$payload" | openssl dgst -sha256 -hmac "$REINDEX_TOKEN" -hex | sed 's/^.* //')"
+          echo "Triggering Command Center Gajbot reindex for commit $COMMIT_SHA..."
+          curl --fail-with-body --silent --show-error --retry 2 -X POST "$REINDEX_WEBHOOK_URL" \
+            -H "X-Hub-Signature-256: $signature" \
+            -H "X-GitHub-Event: push" \
             -H "Content-Type: application/json" \
-            -d "{\"commit\": \"$COMMIT_SHA\", \"message\": \"$COMMIT_MESSAGE\", \"source\": \"erp_docs\"}"
+            -d "$payload"
           
           echo "Gajbot reindex triggered successfully."
