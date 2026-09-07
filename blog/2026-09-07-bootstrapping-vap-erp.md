@@ -1,11 +1,11 @@
 ---
 title: "Bootstrapping VAP ERP: Why We Chose Discipline Over Venture Hype"
-description: "A founder's reflection on building an independent enterprise ERP from first principles, focusing on unit economics, customer trust, and durable architecture."
+description: "A founder's reflection on building an independent ERP, focusing on disciplined execution, customer trust, and accessible pricing."
 author: "Parihar Naresh Singh"
 publishedAt: "2026-09-07"
 status: "published"
 category: "Founder Insights"
-tags: ["Bootstrapping", "Startups", "Founder", "Architecture"]
+tags: ["Bootstrapping", "Startups", "Founder", "Customer Trust"]
 ---
 
 # Bootstrapping VAP ERP: Why We Chose Discipline Over Venture Hype
@@ -28,13 +28,13 @@ Over the past decade, enterprise software has become increasingly hostile to sma
 
 ---
 
-## 2. Engineering from First Principles
+## 2. Building with Discipline
 
-Instead of rushing a bloated prototype to market, I spent the time to architect VAP ERP from the ground up:
+Instead of rushing a bloated prototype to market, I focused on building VAP ERP carefully around practical customer needs:
 
-- **High-Performance Services:** We built our backend with compiled, high-concurrency Go services and a modern Fastify API gateway.
-- **Extreme Infrastructure Efficiency:** By optimizing database queries, eliminating unnecessary computational bloat, and utilizing serverless Cloud Run alongside dedicated Cloud SQL in Mumbai, our entire production infrastructure operates on a disciplined **~$100/month run-rate**.
-- **Passing Efficiency to the Customer:** Because we do not burn millions on bloated marketing or lavish office spaces, we do not need to extract exorbitant fees from our users. We pass that engineering efficiency directly to our customers through affordable, transparent pricing.
+- **Practical workflows:** Everyday tasks such as invoicing, inventory, customer follow-up, and team administration should be understandable and connected.
+- **Disciplined operations:** We control unnecessary complexity and spending so the product can remain dependable and sustainable.
+- **Passing efficiency to customers:** Our focused operating model supports affordable, transparent pricing without exposing internal cost structures or compromising essential safeguards.
 
 ---
 

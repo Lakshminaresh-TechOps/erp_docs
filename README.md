@@ -7,15 +7,15 @@
 
 ---
 
-## 1. Overview & Architecture
+## 1. Overview and Purpose
 
 `erp_docs` is a dedicated, Git-backed repository containing structured Markdown content for VAP ERP end-users and the public. 
 
-It serves two primary consumers simultaneously at **$0.00 extra cost**:
+It serves two primary customer-facing experiences:
 1. **Public Marketing & Documentation Webapp (`vaperp-web`):**
-   - Renders `/kb/*` user guides and `/blog/*` articles as pre-rendered, fast static pages on Cloudflare Pages.
+   - Renders `/kb/*` user guides and `/blog/*` articles as accessible public pages.
 2. **Gajbot AI In-App Copilot:**
-   - Ingests Markdown files to build sub-second vector embeddings on Cloudflare Vectorize + Workers AI (`@cf/baai/bge-m3`), enabling Gajbot to guide end-users through workflows in natural language.
+   - Uses approved published articles to guide end-users through VAP ERP workflows in natural language.
 
 ---
 
@@ -49,7 +49,7 @@ erp_docs/
    - Write in plain, direct business language.
    - Explain *how* to accomplish a specific business goal (e.g., "How to issue an invoice for a wholesale customer").
 2. **Zero Backend Jargon:**
-   - Never mention Go microservices, Fastify gateway, gRPC stubs, PostgreSQL tables, Cloud SQL, Redis, or Docker containers.
+   - Never disclose implementation technologies, infrastructure names, private services, databases, credentials, internal paths, or operational topology.
    - Never reference HTTP status codes (`502`, `504`, `500`). Use human explanations ("The connection timed out; please check your network and refresh").
 3. **Standard Frontmatter Required:**
    Every article must include frontmatter metadata:
