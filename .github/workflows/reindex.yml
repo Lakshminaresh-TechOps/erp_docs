@@ -1,0 +1,35 @@
+name: Trigger Gajbot Knowledge Reindex
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'kb/**'
+      - 'blog/**'
+  workflow_dispatch:
+
+jobs:
+  reindex:
+    name: Notify Gajbot Ingestion Service
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger Reindex Webhook
+        env:
+          REINDEX_WEBHOOK_URL: ${{ secrets.GAJBOT_REINDEX_WEBHOOK_URL }}
+          REINDEX_TOKEN: ${{ secrets.GAJBOT_REINDEX_SECRET }}
+          COMMIT_SHA: ${{ github.sha }}
+          COMMIT_MESSAGE: ${{ github.event.head_commit.message }}
+        run: |
+          if [ -z "$REINDEX_WEBHOOK_URL" ]; then
+            echo "::warning ::GAJBOT_REINDEX_WEBHOOK_URL secret not configured; skipping automatic reindex call."
+            exit 0
+          fi
+          
+          echo "Triggering Gajbot reindex for commit $COMMIT_SHA..."
+          curl -f -s -X POST "$REINDEX_WEBHOOK_URL" \
+            -H "Authorization: Bearer $REINDEX_TOKEN" \
+            -H "Content-Type: application/json" \
+            -d "{\"commit\": \"$COMMIT_SHA\", \"message\": \"$COMMIT_MESSAGE\", \"source\": \"erp_docs\"}"
+          
+          echo "Gajbot reindex triggered successfully."
