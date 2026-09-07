@@ -1,6 +1,6 @@
 # VAP ERP Documentation & Knowledge Corpus (`erp_docs`)
 
-> **Author and Owner:** Parihar Naresh Singh, Founder and Lead Developer, VAP ERP  
+> **Author and Owner:** VAP ERP Documentation Team  
 > **Repository:** `git@github.com:Lakshminaresh-TechOps/erp_docs.git`  
 > **Role:** Single Source of Truth (SSOT) for all public-facing customer documentation, Knowledge Base (`/kb`) articles, Gajbot AI customer copilot knowledge base, and official company blog posts (`/blog`).  
 > **Security Classification:** **100% Customer-Safe & Public.** Strictly zero internal runbooks, infrastructure credentials, private connection strings, or backend implementation jargon permitted.
@@ -57,7 +57,7 @@ erp_docs/
    ---
    title: "Creating and Sending Tax Invoices"
    description: "Step-by-step guide to generating professional, tax-compliant invoices in VAP ERP."
-   author: "Parihar Naresh Singh"
+   author: "VAP ERP Team"
    publishedAt: "2026-09-07"
    status: "published" # 'draft' | 'published'
    category: "Finance"

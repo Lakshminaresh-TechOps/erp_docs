@@ -1,7 +1,7 @@
 ---
 title: "Welcome to VAP ERP: Platform Overview"
 description: "An introduction to VAP ERP, core workspace concepts, and how to get your team started."
-author: "Parihar Naresh Singh"
+author: "VAP ERP Team"
 publishedAt: "2026-09-07"
 status: "published"
 category: "Getting Started"
@@ -51,4 +51,4 @@ Instead of juggling disjointed spreadsheets, disconnected invoicing apps, and is
 
 - **Ask Gajbot:** Click the chat icon in the bottom-right corner of your workspace to ask Gajbot questions in plain English (e.g. *"How do I issue a credit note?"*).
 - **Search This Knowledge Base:** Browse step-by-step guides by topic.
-- **Direct Support:** Email our support team directly at `pnsingh@vaperp.com`.
+- **Direct Support:** Email our support team directly at `support@vaperp.com`.

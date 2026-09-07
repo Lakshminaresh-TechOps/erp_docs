@@ -1,7 +1,7 @@
 ---
 title: "Account Security & Two-Factor Authentication (2FA)"
 description: "How to protect your company records with two-factor authentication and role-based permissions."
-author: "Parihar Naresh Singh"
+author: "VAP ERP Team"
 publishedAt: "2026-09-07"
 status: "published"
 category: "Getting Started"

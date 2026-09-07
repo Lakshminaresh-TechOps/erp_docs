@@ -1,7 +1,7 @@
 ---
 title: "Employee Directory & Leave Management"
 description: "How to manage employee profiles, track attendance, approve leave requests, and organize team departments."
-author: "Parihar Naresh Singh"
+author: "VAP ERP Team"
 publishedAt: "2026-09-07"
 status: "published"
 category: "HR & Team"

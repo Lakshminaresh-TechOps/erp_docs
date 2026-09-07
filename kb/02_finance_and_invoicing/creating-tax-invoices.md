@@ -1,7 +1,7 @@
 ---
 title: "Creating & Sending Tax Invoices"
 description: "How to generate tax-compliant invoices, apply item taxes, record payments, and download clean PDFs."
-author: "Parihar Naresh Singh"
+author: "VAP ERP Team"
 publishedAt: "2026-09-07"
 status: "published"
 category: "Finance"

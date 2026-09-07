@@ -1,7 +1,7 @@
 ---
 title: "Multi-Warehouse Stock Tracking & Inventory Management"
 description: "How to manage product catalogs, track stock across multiple branches or godowns, and set low-stock reorder points."
-author: "Parihar Naresh Singh"
+author: "VAP ERP Team"
 publishedAt: "2026-09-07"
 status: "published"
 category: "Inventory"

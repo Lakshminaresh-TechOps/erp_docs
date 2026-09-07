@@ -1,7 +1,7 @@
 ---
 title: "Bootstrapping VAP ERP: Why We Chose Discipline Over Venture Hype"
 description: "A founder's reflection on building an independent ERP, focusing on disciplined execution, customer trust, and accessible pricing."
-author: "Parihar Naresh Singh"
+author: "VAP ERP Team"
 publishedAt: "2026-09-07"
 status: "published"
 category: "Founder Insights"
@@ -48,5 +48,5 @@ We are building VAP ERP for the long haul: software that grows with you, respect
 
 ---
 
-*Parihar Naresh Singh is the Founder and Lead Developer of VAP ERP.*  
-*Questions or thoughts? Reach out directly at `pnsingh@vaperp.com`.*
+*Published by the VAP ERP Team.*  
+*Questions or thoughts? Reach out directly at `hello@vaperp.com`.*

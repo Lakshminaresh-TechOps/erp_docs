@@ -1,7 +1,7 @@
 ---
 title: "Capturing & Managing Inbound Leads"
 description: "How to capture customer inquiries from website forms, manage sales pipelines, and convert leads to paying clients."
-author: "Parihar Naresh Singh"
+author: "VAP ERP Team"
 publishedAt: "2026-09-07"
 status: "published"
 category: "CRM & Leads"

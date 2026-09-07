@@ -1,7 +1,7 @@
 ---
 title: "Why Software Pricing Should Encourage Team Collaboration, Not Penalize It"
 description: "Examining the economics of per-seat software pricing and how VAP ERP's bundled tier model aligns software costs with actual business value."
-author: "Parihar Naresh Singh"
+author: "VAP ERP Team"
 publishedAt: "2026-09-08"
 status: "published"
 category: "Product Philosophy"
@@ -54,5 +54,5 @@ Software should be an operational asset, not an overhead tax. By aligning our pr
 
 ---
 
-*Parihar Naresh Singh is the Founder and Lead Developer of VAP ERP.*  
-*Questions or feedback? Write to `pnsingh@vaperp.com`.*
+*Published by the VAP ERP Team.*  
+*Questions or feedback? Write to `hello@vaperp.com`.*
