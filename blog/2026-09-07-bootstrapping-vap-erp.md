@@ -3,8 +3,11 @@ title: "Bootstrapping VAP ERP: Why We Chose Discipline Over Venture Hype"
 description: "A founder's reflection on building an independent ERP, focusing on disciplined execution, customer trust, and accessible pricing."
 author: "VAP ERP Team"
 publishedAt: "2026-09-07"
+updatedAt: "2026-09-08"
 status: "published"
 category: "Founder Insights"
+module: "platform"
+audience: "public"
 tags: ["Bootstrapping", "Startups", "Founder", "Customer Trust"]
 ---
 

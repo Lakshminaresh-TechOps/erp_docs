@@ -3,8 +3,11 @@ title: "Multi-Warehouse Stock Tracking & Inventory Management"
 description: "How to manage product catalogs, track stock across multiple branches or godowns, and set low-stock reorder points."
 author: "VAP ERP Team"
 publishedAt: "2026-09-07"
+updatedAt: "2026-09-08"
 status: "published"
 category: "Inventory"
+module: "inventory"
+audience: "inventory_manager"
 tags: ["Inventory", "Stock", "Warehouse", "Reorders"]
 ---
 

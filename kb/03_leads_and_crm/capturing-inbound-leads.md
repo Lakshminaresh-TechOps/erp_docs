@@ -3,8 +3,11 @@ title: "Capturing & Managing Inbound Leads"
 description: "How to capture customer inquiries from website forms, manage sales pipelines, and convert leads to paying clients."
 author: "VAP ERP Team"
 publishedAt: "2026-09-07"
+updatedAt: "2026-09-08"
 status: "published"
 category: "CRM & Leads"
+module: "leads"
+audience: "sales_manager"
 tags: ["CRM", "Leads", "Sales", "Webhooks"]
 ---
 

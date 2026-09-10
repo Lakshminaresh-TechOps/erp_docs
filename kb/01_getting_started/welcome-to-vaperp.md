@@ -3,8 +3,11 @@ title: "Welcome to VAP ERP: Platform Overview"
 description: "An introduction to VAP ERP, core workspace concepts, and how to get your team started."
 author: "VAP ERP Team"
 publishedAt: "2026-09-07"
+updatedAt: "2026-09-08"
 status: "published"
 category: "Getting Started"
+module: "platform"
+audience: "tenant_admin"
 tags: ["Overview", "Basics", "Onboarding"]
 ---
 

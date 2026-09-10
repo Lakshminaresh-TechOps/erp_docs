@@ -3,8 +3,11 @@ title: "Employee Directory & Leave Management"
 description: "How to manage employee profiles, track attendance, approve leave requests, and organize team departments."
 author: "VAP ERP Team"
 publishedAt: "2026-09-07"
+updatedAt: "2026-09-08"
 status: "published"
 category: "HR & Team"
+module: "hr"
+audience: "hr_manager"
 tags: ["HR", "Employees", "Attendance", "Leave"]
 ---
 

@@ -3,8 +3,11 @@ title: "Creating & Sending Tax Invoices"
 description: "How to generate tax-compliant invoices, apply item taxes, record payments, and download clean PDFs."
 author: "VAP ERP Team"
 publishedAt: "2026-09-07"
+updatedAt: "2026-09-08"
 status: "published"
 category: "Finance"
+module: "finance"
+audience: "finance_manager"
 tags: ["Invoicing", "Tax", "Billing", "PDF"]
 ---
 
