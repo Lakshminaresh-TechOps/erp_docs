@@ -20,6 +20,7 @@ jobs:
           REINDEX_TOKEN: ${{ secrets.GAJBOT_REINDEX_SECRET }}
           COMMIT_SHA: ${{ github.sha }}
           COMMIT_MESSAGE: ${{ github.event.head_commit.message }}
+          SOURCE_REPOSITORY: ${{ github.repository }}
         run: |
           if [ -z "$REINDEX_WEBHOOK_URL" ] || [ -z "$REINDEX_TOKEN" ]; then
             echo "::error ::GAJBOT_REINDEX_WEBHOOK_URL and GAJBOT_REINDEX_SECRET must be configured."
@@ -27,7 +28,8 @@ jobs:
           fi
 
           payload=$(jq -cn --arg commit "$COMMIT_SHA" --arg message "$COMMIT_MESSAGE" \
-            '{after:$commit, head_commit:{message:$message}, repository:{full_name:"erp_docs"}, ref:"refs/heads/production"}')
+            --arg repository "$SOURCE_REPOSITORY" \
+            '{after:$commit, head_commit:{message:$message}, repository:{full_name:$repository}, ref:"refs/heads/production"}')
           signature="sha256=$(printf '%s' "$payload" | openssl dgst -sha256 -hmac "$REINDEX_TOKEN" -hex | sed 's/^.* //')"
           echo "Triggering Command Center Gajbot reindex for commit $COMMIT_SHA..."
           curl --fail-with-body --silent --show-error --retry 2 -X POST "$REINDEX_WEBHOOK_URL" \
