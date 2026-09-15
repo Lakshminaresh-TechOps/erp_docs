@@ -3,7 +3,10 @@ title: "Why Software Pricing Should Encourage Team Collaboration, Not Penalize I
 description: "Examining the economics of per-seat software pricing and how VAP ERP's bundled tier model aligns software costs with actual business value."
 author: "VAP ERP Team"
 publishedAt: "2026-09-08"
+updatedAt: "2026-09-15"
 status: "published"
+module: "platform"
+audience: "business_owner"
 category: "Product Philosophy"
 tags: ["Pricing", "SaaS", "Economics", "Business"]
 ---
@@ -42,7 +45,7 @@ Of course not. In a properly architected, multi-tenant system with compiled Go s
 Charging $50/month for that user is not reflecting cost; it is extracting rent.
 
 ### The VAP ERP Approach:
-- **Generous User Bundles:** Our plans provide generous user limits out of the box (e.g., up to 5 users on Starter, up to 25 users on Growth).
+- **Clear User Bundles:** Each plan publishes its included user allowance so a business can choose the appropriate tier without hidden seat assumptions.
 - **Encourage Clean Accountability:** Because adding a warehouse operator or junior clerk does not trigger a punitive monthly fee, companies can give every employee their own secure login with granular permissions.
 - **Audit Trails That Actually Work:** When every employee has their own account, your business gains true security: two-factor authentication, named activity logs, and strict role segregation.
 
@@ -50,7 +53,7 @@ Charging $50/month for that user is not reflecting cost; it is extracting rent.
 
 ## 3. Technology Built for Real Business Growth
 
-Software should be an operational asset, not an overhead tax. By aligning our pricing model with real operational value and keeping our own infrastructure lean, we provide growing enterprises with bank-grade ERP tools at a price that leaves capital where it belongs—in your business.
+Software should be an operational asset, not an overhead tax. By aligning our pricing model with real operational value and keeping our own infrastructure lean, we provide growing enterprises with security-focused ERP tools at a price that leaves capital where it belongs—in your business.
 
 ---
 

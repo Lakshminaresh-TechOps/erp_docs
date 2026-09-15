@@ -3,7 +3,10 @@ title: "Account Security & Two-Factor Authentication (2FA)"
 description: "How to protect your company records with two-factor authentication and role-based permissions."
 author: "VAP ERP Team"
 publishedAt: "2026-09-07"
+updatedAt: "2026-09-15"
 status: "published"
+module: "admin"
+audience: "tenant_admin"
 category: "Getting Started"
 tags: ["Security", "2FA", "Passwords", "Admin"]
 ---
