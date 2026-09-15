@@ -3,7 +3,10 @@ title: "Customer Support Ticketing & Issue Resolution"
 description: "How to manage customer support requests, assign tickets to agents, track SLAs, and log resolution notes."
 author: "VAP ERP Team"
 publishedAt: "2026-09-07"
+updatedAt: "2026-09-15"
 status: "published"
+module: "support"
+audience: "support_manager"
 category: "Support"
 tags: ["Support", "Helpdesk", "Tickets", "Customer Service"]
 ---
