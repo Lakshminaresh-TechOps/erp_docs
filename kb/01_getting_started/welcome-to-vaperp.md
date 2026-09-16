@@ -3,7 +3,7 @@ title: "Welcome to VAP ERP: Platform Overview"
 description: "An introduction to VAP ERP, core workspace concepts, and how to get your team started."
 author: "VAP ERP Team"
 publishedAt: "2026-09-07"
-updatedAt: "2026-09-15"
+updatedAt: "2026-09-16"
 status: "published"
 module: "platform"
 audience: "business_owner"
@@ -29,6 +29,8 @@ Instead of juggling disjointed spreadsheets, disconnected invoicing apps, and is
 ---
 
 ## 2. Core Business Tools at a Glance
+
+The modules visible to each person depend on the workspace subscription and the permissions assigned by an administrator.
 
 | Module | What It Does for Your Business |
 | :--- | :--- |
