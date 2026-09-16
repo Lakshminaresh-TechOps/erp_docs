@@ -3,7 +3,7 @@ title: "Customer Support Ticketing & Issue Resolution"
 description: "How to manage customer support requests, assign tickets to agents, track SLAs, and log resolution notes."
 author: "VAP ERP Team"
 publishedAt: "2026-09-07"
-updatedAt: "2026-09-15"
+updatedAt: "2026-09-16"
 status: "published"
 module: "support"
 audience: "support_manager"
@@ -22,6 +22,8 @@ The **Customer Support Desk** module in VAP ERP enables your client service team
 Tickets enter the support desk through two primary channels:
 1. **Manual Ticket Creation:** An agent receiving a phone call or direct email clicks **+ New Ticket**, selects the customer account, and logs the issue summary.
 2. **Customer Portal Submission:** Clients can submit tickets directly through their customer portal, attaching screenshots and setting urgency levels.
+
+Before attaching a screenshot or log, remove passwords, verification codes, API keys, payment details, and other sensitive information.
 
 ---
 
