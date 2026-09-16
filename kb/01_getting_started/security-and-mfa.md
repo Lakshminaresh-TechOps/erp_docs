@@ -3,7 +3,7 @@ title: "Account Security & Two-Factor Authentication (2FA)"
 description: "How to protect your company records with two-factor authentication and role-based permissions."
 author: "VAP ERP Team"
 publishedAt: "2026-09-07"
-updatedAt: "2026-09-15"
+updatedAt: "2026-09-16"
 status: "published"
 module: "admin"
 audience: "tenant_admin"
@@ -37,6 +37,7 @@ Two-factor authentication (also known as Multi-Factor Authentication or MFA) add
 
 - Use a unique passphrase of at least 12 characters combining letters, numbers, and symbols.
 - Never share your personal login credentials with coworkers. Every team member should have their own named account so actions can be traced in the audit log.
+- Never share a verification code or approve an unexpected sign-in request, including with anyone claiming to represent support.
 - If you suspect your password has been compromised, reset it immediately via **Account Settings → Change Password** or use the **Forgot Password** link on the sign-in screen.
 
 ---
