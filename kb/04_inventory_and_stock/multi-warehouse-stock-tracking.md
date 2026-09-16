@@ -3,7 +3,7 @@ title: "Multi-Warehouse Stock Tracking & Inventory Management"
 description: "How to manage product catalogs, track stock across multiple branches or godowns, and set low-stock reorder points."
 author: "VAP ERP Team"
 publishedAt: "2026-09-07"
-updatedAt: "2026-09-15"
+updatedAt: "2026-09-16"
 status: "published"
 module: "inventory"
 audience: "inventory_manager"
@@ -49,6 +49,7 @@ If your business operates multiple branches, retail stores, or godowns:
 ## 3. Stock In, Stock Out & Internal Transfers
 
 Every physical inventory movement is recorded in an immutable ledger:
+Use individual named accounts for stock adjustments so approvals and corrections remain attributable in the audit history.
 
 - **Stock In (Receiving Goods):**  
   When a supplier shipment arrives, go to **Inventory → Stock Adjustments → Add Stock In**. Enter the vendor name, destination warehouse, item quantities, and batch or lot numbers.
