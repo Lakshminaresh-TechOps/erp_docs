@@ -31,6 +31,7 @@ Instead of juggling disjointed spreadsheets, disconnected invoicing apps, and is
 ## 2. Core Business Tools at a Glance
 
 The modules visible to each person depend on the workspace subscription and the permissions assigned by an administrator.
+If an expected module is missing, ask your workspace administrator to verify both the subscription entitlement and your assigned role before contacting support.
 
 | Module | What It Does for Your Business |
 | :--- | :--- |
