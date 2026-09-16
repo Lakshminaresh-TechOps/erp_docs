@@ -3,7 +3,7 @@ title: "Creating & Sending Tax Invoices"
 description: "How to generate tax-compliant invoices, apply item taxes, record payments, and download clean PDFs."
 author: "VAP ERP Team"
 publishedAt: "2026-09-07"
-updatedAt: "2026-09-15"
+updatedAt: "2026-09-16"
 status: "published"
 module: "finance"
 audience: "finance_manager"
@@ -33,6 +33,7 @@ The **Finance & Invoicing** module in VAP ERP allows you to issue professional, 
    - Select the applicable tax rate (e.g. GST 5%, 12%, 18%, or Tax Exempt). The system calculates line-level and total taxes automatically.
 6. **Add Notes & Payment Details:**
    - Enter bank transfer details, UPI IDs, or special terms and conditions in the **Customer Notes** box.
+   - Never place passwords, one-time verification codes, private API keys, or complete card credentials in invoice notes.
 7. **Save or Issue:**
    - Click **Save as Draft** if you want to review it later without affecting your sales ledger.
    - Click **Issue Invoice** to finalize the invoice number and update your customer's outstanding balance.
