@@ -3,7 +3,7 @@ title: "Employee Directory & Leave Management"
 description: "How to manage employee profiles, track attendance, approve leave requests, and organize team departments."
 author: "VAP ERP Team"
 publishedAt: "2026-09-07"
-updatedAt: "2026-09-15"
+updatedAt: "2026-09-17"
 status: "published"
 module: "hr"
 audience: "hr_manager"
@@ -33,6 +33,8 @@ The **HR & Team** module in VAP ERP helps company founders, HR managers, and dep
 5. **System User Association:**
    - If the employee requires login access to VAP ERP, link their employee record to their user account with appropriate permissions.
 6. Click **Save Employee**.
+
+Restrict access to personal addresses, emergency contacts, compensation, and identity records to authorized HR roles with a legitimate business need.
 
 ---
 
