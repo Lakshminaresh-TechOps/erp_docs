@@ -74,3 +74,18 @@ erp_docs/
 - All updates follow Git version control.
 - Commits are signed and reviewed before merging to `main`.
 - To preview changes locally, run `npm run dev` inside `erp_platform/vaperp-web`.
+
+---
+
+## Content validation (pull requests)
+
+Every pull request touching `kb/**`, `blog/**` or `scripts/**` runs `.github/workflows/validate.yml`, a **validation-only** job: read-only repository permission, no secrets, no network calls and no access to GajBot, Command Center or Vectorize.
+
+Run the same checks locally:
+
+```bash
+node --test scripts/validate-kb.test.mjs   # validator self-tests
+node scripts/validate-kb.mjs .             # validate kb/ and blog/
+```
+
+The validator rejects missing or malformed front matter, invalid metadata, internal terms, secrets, customer data (emails outside example/company domains, phone numbers, tax IDs, card numbers, private addresses, infrastructure names), internal paths, unresolved or unsafe links, invalid Mermaid diagrams, oversized files and unsupported claims. The GajBot ingestion service re-validates every commit with the same rules (and the same issue codes) before any vector is written, so a merged article can never bypass the gate.

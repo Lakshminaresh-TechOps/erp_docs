@@ -1,0 +1,39 @@
+name: Validate Knowledge Content
+
+# Validation only. This workflow never receives reindex credentials, never
+# calls Command Center or Vectorize, and cannot change any production service.
+# Author and owner: Parihar Naresh Singh, Founder and Lead Developer, VAP ERP.
+on:
+  pull_request:
+    branches:
+      - main
+      - production
+    paths:
+      - 'kb/**'
+      - 'blog/**'
+      - 'scripts/**'
+      - '.github/workflows/validate.yml'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: validate-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    name: Validate customer knowledge content
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Validator self-tests
+        run: node --test scripts/validate-kb.test.mjs
+      - name: Validate metadata, links, Mermaid, sensitive content and claims
+        run: node scripts/validate-kb.mjs .
