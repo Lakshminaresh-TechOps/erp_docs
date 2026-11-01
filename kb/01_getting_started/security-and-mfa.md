@@ -5,7 +5,7 @@ author: "VAP ERP Team"
 publishedAt: "2026-09-07"
 updatedAt: "2026-09-16"
 status: "published"
-module: "admin"
+module: "security"
 audience: "tenant_admin"
 category: "Getting Started"
 tags: ["Security", "2FA", "Passwords", "Admin"]
