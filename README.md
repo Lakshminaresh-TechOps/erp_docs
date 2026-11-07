@@ -35,7 +35,8 @@ erp_docs/
 │   ├── 04_inventory_and_stock/         ← Item catalog, multi-warehouse stock, low-stock reorders
 │   ├── 05_hr_and_team/                 ← Employee profiles, attendance, leave, departments
 │   ├── 06_customer_support/            ← Support ticketing, customer case history, internal notes
-│   └── 07_school_management/          ← Student records, fee collection ledgers
+│   ├── 07_school_management/          ← Student records, fee collection ledgers
+│   └── 08_recruitment/                ← Recruit: openings, careers page, applicants, interviews, offers, approvals, joining
 └── blog/                               ← Official company insights & founder updates
     ├── 2026-09-07-bootstrapping-vap-erp.md
     └── 2026-09-08-architecting-zero-seat-tax-business-software.md
