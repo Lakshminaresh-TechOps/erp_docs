@@ -1,93 +1,70 @@
 ---
 title: "HR: Resignations and Approvals"
-description: "How an employee resigns, how the department manager and the department HR approve it together, how to send a resignation back, and how to set up who approves."
+description: "How resignations reach HR: employees resign in My Profile, the department manager and the department HR approve together, and HR then handles the notice period and no-dues checklist. How to set up who approves."
 author: "VAP ERP Team"
 publishedAt: "2026-11-08"
-updatedAt: "2026-11-08"
+updatedAt: "2026-11-09"
 status: "published"
 category: "HR & Team"
 module: "hr"
 audience: "hr_manager"
-tags: ["HR", "Resignations", "Approvals", "Notice period", "Offboarding"]
+tags: ["HR", "Resignations", "Approvals", "Notice period", "Offboarding", "My Profile"]
 ---
 
 # HR: Resignations and Approvals
 
-In VAP ERP, a resignation is approved by **two people at the same time**:
+In VAP ERP, employees resign in **My Profile → Resignation**. They do not need access to the HR module. When HR has an employee record for the person, the resignation comes to HR and is approved by **two people at the same time**:
 
 - the employee's **department manager**, and
 - the employee's **department HR**.
 
 When **both** have approved, the resignation is **accepted**. The employee's status changes to **Notice period**, and the **no-dues clearance** checklist starts.
 
-If either of them disagrees, they **send it back** to the employee with a note. The employee changes it and submits it again, and both approvals start again from the beginning.
-
-All of this happens on one page: **HR → Resignations**.
+If either of them disagrees, they **send it back** to the employee with a note. The employee changes it and submits it again, and both approvals start again.
 
 ---
 
-## 1. Setting Up Who Approves (HR or Admin, Once)
+## 1. Setting Up Who Approves (Once)
 
-Approvers are set up in two places.
+**Department managers are named in Admin**
 
-**Step 1: give the rights in Access**
+1. An organisation admin opens **Admin → Departments**.
+2. Next to a department, they click **Managers**, tick the people who manage it, and save.
 
-1. Open **HR → Settings → Access**.
-2. In the **Resignations** group, give a role one of these rights:
-   - **Approve as department manager**
-   - **Approve as department HR**
-3. Give that role to the right people.
+Only organisation (staff) logins can be managers. The same managers approve resignations whether or not HR is used.
 
-**Step 2: tick their departments**
+**Department HR is set up in HR**
 
-1. Open **HR → Settings → Resignations**.
-2. Every person with one of the two rights is listed. Click **Departments** next to a person.
-3. Tick the departments that person looks after, then click **Save**.
+1. Open **HR → Settings → Access**. In the **Resignations** group, give a role the right **Approve as department HR**, and give that role to the right people.
+2. Open **HR → Settings → Resignations**. Every person with that right is listed. Click **Departments** next to a person, tick the departments they look after, and click **Save**.
 
-A person approves only for the departments ticked for them. If no department is ticked, the list shows *"No departments ticked yet, so they approve nothing."*
-
-Only people who can edit HR people (the right to edit employees) can change this page.
+A department HR person approves only for the departments ticked for them. Only people who can edit HR people can change this page.
 
 **Organisation admins**
 
-- By default, organisation admins can approve **either step for any department**.
-- An organisation admin can switch this off for an admin who should not approve, for example an IT admin. On **HR → Settings → Resignations**, click **Stop approving** next to that admin. Click **Approve resignations** to switch it back on.
+By default, organisation admins can approve **either step for any department**. An admin can be switched off from approving, for example an IT admin. That switch is in **Admin → Resignations**, under **Organisation admins**.
 
 ---
 
-## 2. Submitting a Resignation (Employee)
+## 2. How an Employee Resigns
 
-1. Open **HR → Resignations**.
-2. Under **My resignation**, click **Submit resignation**.
-3. Fill in:
-   - **Last working day.** It must respect your notice period, unless the notice is waived.
-   - **Reason (optional)**, for example *moving to another city*.
-   - **Ask to waive the notice period**, if you want to leave before your notice ends.
-4. Click **Submit**.
+The employee opens **My Profile → Resignation**, clicks **Resign**, and fills in the last working day, an optional reason, and, if they wish, a request to waive the notice period. The notice period is counted **from the day they first submit**.
 
-The page shows your notice period in days. It is counted **from the day you first submit**.
-
-After you submit, **My resignation** shows:
-- the status, **Waiting for approval**;
-- each approval step, and who has approved it so far;
-- who can approve each step.
-
-You can have only **one open resignation** at a time.
-
-**Withdrawing:** while your resignation is waiting or sent back, click **Withdraw**. You can submit a new one later.
+**HR → Resignations** no longer has its own resign form. For your own resignation it shows **Resign in My Profile**.
 
 ---
 
-## 3. Approving or Sending Back (Manager and HR)
+## 3. Approving or Sending Back (Manager and Department HR)
 
-Resignations you can act on appear at the top of **HR → Resignations**, under **Waiting for your approval**.
+You can act in either place:
+- **My Profile → Resignation**, under **Waiting for my approval** (no HR access needed), or
+- **HR → Resignations**, under **Waiting for your approval**.
 
 1. Click **Review** on the resignation.
-2. If you can approve both steps, for example as an organisation admin, choose **You approve as**: *Department manager* or *Department HR*.
-3. Choose one:
-   - **Approve.** You can set the **Agreed last working day**. It must respect the notice period, unless the notice is waived. You can add a **Note (optional)**.
-   - **Send back to the employee.** Write **What should the employee change?** A note is required.
-4. Click **Approve** or **Send back**.
+2. Choose one:
+   - **Approve.** You can set the **Agreed last working day**. It must respect the notice period, unless the notice is waived.
+   - **Send back to the employee.** Write what the employee should change. A note is required.
+3. Click **Approve** or **Send back**.
 
 **What happens next**
 
@@ -100,32 +77,20 @@ Resignations you can act on appear at the top of **HR → Resignations**, under 
 **Rules**
 
 - Nobody can approve **their own** resignation.
-- One person approves **only one of the two steps** of the same resignation, even if they hold both rights or are an admin.
-- A step that is already approved cannot be approved again.
+- One person approves **only one of the two steps** of the same resignation, even an admin, so that two different people always agree.
 
 ---
 
-## 4. When a Resignation Is Sent Back (Employee)
-
-1. Open **HR → Resignations**. **My resignation** shows **Sent back** and the note, for example *"Priya sent it back: Please give the full notice."*
-2. Click **Change and submit again**.
-3. Change the last working day, the reason or the notice waiver, then click **Submit again**.
-
-Both approvals **start again**. Earlier approvals do not count for the new submission.
-
-You can also click **Withdraw** instead.
-
----
-
-## 5. After It Is Accepted
+## 4. After It Is Accepted
 
 - The employee's status becomes **Notice period**.
 - On the employee's page (**HR → Employees** → the person), the **No-dues clearance** checklist lists what must be cleared before they leave.
-- HR can see every resignation and its status under **All resignations** on **HR → Resignations**.
+- HR handles the final settlement as usual.
+- The employee's **sign-in is switched off automatically** during the night after their last working day. Their seat is freed.
 
 ---
 
-## 6. Resignation Statuses
+## 5. Resignation Statuses
 
 | Status | Meaning |
 |--------|---------|
@@ -133,30 +98,21 @@ You can also click **Withdraw** instead.
 | **Sent back** | Returned to the employee with a note to change and submit again |
 | **Accepted** | Both approved; notice period started |
 | **Withdrawn** | The employee withdrew it |
+| **Rejected** | An older resignation decided before this approval flow |
 
 ---
 
-## 7. Troubleshooting
+## 6. Troubleshooting
 
-**"I have the right, but the resignation is not in Waiting for your approval."**
-You do not look after the employee's department. Ask HR to tick it for you in **HR → Settings → Resignations**.
-
-**"The review says my HR role does not include the right."**
-Your role does not have **Approve as department manager** or **Approve as department HR**. Ask an admin to add it in **HR → Settings → Access**.
+**"A resignation is not in Waiting for your approval."**
+- As department HR: you do not look after the employee's department. Ask HR to tick it for you in **HR → Settings → Resignations**.
+- As a manager: you are not named as a manager of that department. Ask an organisation admin to add you in **Admin → Departments → Managers**.
 
 **"The employee has no department, so only an organisation admin can approve it."**
-Set the employee's department on their page in **HR → Employees**. Until then, only an organisation admin can approve.
+Set the employee's department on their page in **HR → Employees**.
 
-**"I approved as manager. Why can't I approve as HR too?"**
-One person approves only one step, so that two different people always agree.
-
-**"I can't submit a resignation."**
-- If **Submit resignation** is missing, you already have an open resignation. Change it or withdraw it under **My resignation**.
-- If it is greyed out, you are already in your notice period or have left.
-- If the page says *"No employment record is linked to your account"*, ask HR to link your login to your employee record.
-
-**"Older resignations show Rejected."**
-Resignations decided before this approval flow keep their old status. New ones are sent back instead of rejected.
+**"An employee says they cannot resign in HR."**
+That is expected. Everyone resigns in **My Profile → Resignation**.
 
 **"Who can see all resignations?"**
 People who can view HR employees, and organisation admins. Approvers who are not HR see only the resignations waiting for them.
