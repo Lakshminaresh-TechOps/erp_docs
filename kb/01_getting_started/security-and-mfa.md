@@ -3,7 +3,7 @@ title: "Account Security & Two-Factor Authentication (2FA)"
 description: "How to protect your company records with two-factor authentication and role-based permissions."
 author: "VAP ERP Team"
 publishedAt: "2026-09-07"
-updatedAt: "2026-09-16"
+updatedAt: "2026-11-09"
 status: "published"
 module: "security"
 audience: "tenant_admin"
@@ -60,3 +60,9 @@ A Tenant Administrator can securely reset the employee's two-factor authenticati
 
 **Can administrators enforce 2FA for all company employees?**  
 Yes. In **Admin Center → Security Policies**, administrators can toggle **Enforce 2FA for All Users**. Once activated, all employees will be prompted to configure their authenticator app on their next login before accessing company data.
+
+**Why was I told to sign in at my organisation's address?**  
+If your organisation requires two-factor authentication, or you are its owner and have an authenticator app set up, sign in at your organisation's own address (for example *yourcompany.vaperp.com*). That page asks for your authenticator code. A general sign-in page that does not know your organisation cannot ask for it, so it sends you there instead.
+
+**Is the owner always asked for a code?**  
+Yes, when the owner has an authenticator app set up: the owner is asked for the code at every sign-in, even if the organisation does not require two-factor authentication for everyone else.
