@@ -3,7 +3,7 @@ title: "Admin: Changing the Owner of Your Business"
 description: "When a business is sold or moves to a new legal entity with a new owner: how the current owner asks for an ownership change, what the VAP ERP team checks, the 48-hour cooling-off and stop link, how the new owner sets up a brand-new login, and what changes on the effective date."
 author: "VAP ERP Team"
 publishedAt: "2026-11-09"
-updatedAt: "2026-11-09"
+updatedAt: "2026-11-10"
 status: "published"
 category: "Organisation & Admin"
 module: "admin"
@@ -49,8 +49,8 @@ You can have one ownership change open at a time.
    - **4. Documents:** the transfer document (for example the sale deed), the new business's GST certificate or PAN proof, and the new owner's ID proof. PDF, PNG or JPEG, up to 5 MB each. Only you and the VAP ERP team can see them.
 3. Click **Save draft**. A draft is not sent, and you can come back to it.
 4. Under **5. Declaration and confirmation**, read the declaration and tick **I have read and accept this declaration**.
-5. Click **Send confirmation codes**. A code goes to your email, and another to your mobile if your login has one. The codes are valid for 10 minutes.
-6. Enter the codes and click **Send the request**.
+5. Click **Send confirmation codes**. A code goes to your email. When confirmation by SMS is available, another code goes to your mobile if your login has one. The codes are valid for 10 minutes.
+6. Enter the code (or codes) and click **Send the request**.
 
 You see: *"Sent to the VAP ERP team. You will hear from them; nothing changes until it is approved."*
 
@@ -73,7 +73,7 @@ Until it is approved, you can click **Cancel request**.
 
 When the request is approved, a **48-hour cooling-off** starts.
 
-- The current owner receives an email and an SMS with a **stop link**.
+- The current owner receives an email with a **stop link** (and an SMS when available).
 - If the change was not asked for by the owner, open the link and click **Stop the ownership change**. Nothing in the organisation changes, and the VAP ERP team is told.
 - After the cooling-off, the change can no longer be stopped with the link. Contact VAP ERP support straight away if something is wrong.
 
@@ -83,9 +83,9 @@ When the request is approved, a **48-hour cooling-off** starts.
 
 After the cooling-off, the VAP ERP team sends the new owner an **invitation link** by email. It is valid for 7 days. If it expires, the VAP ERP team can send a new one.
 
-The new owner opens the link and completes four steps:
+The new owner opens the link and completes these steps (the email is confirmed by the link itself):
 
-1. **Your mobile number**: they confirm it with a code sent by SMS. The email is confirmed by the link itself.
+1. **Your mobile number** (only when confirmation by SMS is available): they confirm it with a code sent by SMS.
 2. **Your password**: at least 12 characters, with letters and at least one digit.
 3. **Authenticator app**: they scan the QR code with an authenticator app (for example Google Authenticator or Microsoft Authenticator) and enter the 6-digit code it shows. As the owner, they confirm every sign-in with a code from this app.
 4. **Confirm and accept**: they check the new business details and accept the VAP ERP terms (and any dues carried over).
@@ -135,7 +135,7 @@ If the owner cannot be reached, has died, or a court has ordered the transfer, c
 - if the owner has died: the death certificate and a succession or legal heir document;
 - for a court order: the order.
 
-The same two-person approval and cooling-off apply. The notice and the stop link still go to the current owner's email and mobile. In **Admin → Ownership** the request shows *"The VAP ERP team started this ownership change from a support request"*. It cannot be changed or cancelled there.
+The same two-person approval and cooling-off apply. The notice and the stop link still go to the current owner's email (and mobile, when SMS is available). In **Admin → Ownership** the request shows *"The VAP ERP team started this ownership change from a support request"*. It cannot be changed or cancelled there.
 
 ---
 
