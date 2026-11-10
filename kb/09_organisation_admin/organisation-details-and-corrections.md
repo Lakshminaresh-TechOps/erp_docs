@@ -65,7 +65,7 @@ While a request is waiting, you can click **Cancel request**.
 
 ## 4. When the Business Itself Changes Hands
 
-If the business has been sold or moved to a new legal entity, with a new owner, that is **not a correction**. Contact VAP ERP support about changing the ownership of the organisation. A correction request for a sale will not be approved.
+If the business has been sold or moved to a new legal entity, with a new owner, that is **not a correction**. The owner asks for an **ownership change** in **Admin → Ownership** (see *Admin: Changing the Owner of Your Business*). A correction request for a sale will not be approved.
 
 ---
 
